@@ -1,0 +1,34 @@
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid navy;
+}
+.style-me1 {
+    color: darkolivegreen;
+}
+#style-me2 {
+    color: blueviolet;
+}
+#style-me2 + .style-me1 {
+    color: firebrick;
+}
+.my-descendants-are-styled p {
+    background-color: palevioletred;
+}
+.my-children-are-styled > p {
+    background-color: green;
+}
+.box {
+    background-color: coral;
+    padding: 60px;
+    margin: 10px;
+    height: 20%;
+    width: 50%; 
+    border: 10px solid black;
+    box-sizing: content-box;
+    overflow: scroll;
+    outline: 10px;
+    border-radius: 50%;
+
+   
+}
