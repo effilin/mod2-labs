@@ -9,10 +9,52 @@
     <nav>
       <!-- works like <a href="/index.html">Home</a> -->
       <a href="/">Home</a>
+      <a href="form.html">Form</a>
     </nav>
   </header>
 
   <main>
+    
+      <form method="post" action="https://127.0.0.1:5500/form">
+        <div>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" value="Franie">
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" value="Namie">
+        </div>
+        <div>
+          <label for="red">Red</label>
+          <input type="radio" id="red" name="fav-color" value="red">
+          <label for="blue">Blue</label>
+          <input type="radio" id="blue" name="fav-color" value="blue">
+          <label for="yellow">Yellow</label>
+          <input type="radio" id="yellow" name="fav-color" value="yellow">
+        </div>
+        <div>
+          <input type="checkbox" id="veh1" name="veh1" value="Honda">
+          <label for="veh1">Honda</label>
+          <input type="checkbox" id="veh2" name="veh2" value="Mazda">
+          <label for="veh2">Mazda</label>
+          <input type="checkbox" id="veh3" name="veh3" value="Toyota">
+          <label for="veh3">Toyota</label>
+        </div>
+        <div>
+          <label for="trees">Choose your Favorite Tree</label>
+          <select id="trees" name="trees">
+            <option value="willow">Willow Tree</option>
+            <option value="apple">Apple Tree</option>
+            <option value="redbud">Redbud Tree</option>
+          </select>
+        </div>
+        <div>
+          <button type="submit">Submit Form</button>
+        </div>
+      </form>
+    
+
+
   </main>
 
   <footer>Copyright &copy; 2024</footer>
