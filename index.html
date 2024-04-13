@@ -2,17 +2,93 @@
 <html>
 
 <head>
+  <title>The Basics, Lab 1!</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="html basics and semantics">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Eva Nummer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  
 </head>
 
 <body>
   <header>
     <nav>
       <!-- works like <a href="/index.html">Home</a> -->
-      <a href="/">Home</a>
+      <a href="form.html">Home</a>
     </nav>
   </header>
 
-  <main>  
+  <main> 
+    <h1>My learning journey</h1>
+    <article>
+      <h2>look at those elements</h2>
+    <div>One</div><div>Two</div><div>Three</div>
+    <span>1</span><span>2</span><span>3</span>
+    <p> I   used     weird     spacing... But........     You can't tell!</p>
+    <pre>now..   ..  .. you   can     tell!!!!</pre>
+
+    <ul>
+      <li>rosemary</li>
+      <li>basil</li>
+      <li>oregano</li>
+      <li>parsley</li>
+    </ul>
+    <ol>
+      <li>poppy</li>
+      <li>cardinal flower</li>
+      <li>cone flowers</li>
+      <ul>
+        <li>pink</li>
+        <li>purple</li>
+      </ul>
+
+    </ol>
+    </article>
+    <article>
+      <table>
+        <caption>My special table</caption>
+        <thead>
+          <tr>
+            <th scope="col">Herbs</th>
+            <th scope="col">use</th>
+            <th scope="col" colspan="2">Number of plants</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Basil</th>
+            <td>pesto, seasonings, bruschetta </td>
+            <td>1</td>
+            <td>fix</td>
+          </tr>
+          <tr>
+            <th scope="row">Rosemary</th>
+            <td>seasoning, cooking</td>
+            <td>1</td>
+            <td>fix</td>
+          </tr>
+          <tr>
+            <th scope="row">chives</th>
+            <td>seasoning, cooking</td>
+            <td colspan="2">n/a seeded</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">More Herbs to Come</th>
+            <td>eeh</td>
+          </tr>
+        </tfoot>
+      </table>
+    
+
+
+    </article>
+
   </main>
 
   <footer>Copyright &copy; 2024</footer>
