@@ -75,7 +75,7 @@ flex-basis: 20%;
     flex-direction: row;
     flex-wrap: nowrap;
     list-style-type: none;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding-left: 0%;
     
@@ -85,8 +85,8 @@ flex-basis: 20%;
     order: 4;
 }
 .flex-menu > li {
-    align-self: stretch;
     flex-basis: 10%;
     margin: 1vw;
+    flex-grow: 1;
    
 }
